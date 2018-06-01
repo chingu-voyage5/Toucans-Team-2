@@ -26,7 +26,7 @@ Give your worries a rest and put your creativity to the test!
 * _Pixel Art Maker_ and _Memory Match Game_ were built as projects for Udacity's Front-End NanoDegree course. Though the ideas and specifications for the games came from Udacity, these were completely built from scratch.
 
 * Throughout the games we use:
-  * Icons from [Font Awesome](https://fontawesome.com/ Font Awesome's Homepage)
+  * Icons from [Font Awesome](https://fontawesome.com/)
   * CSS Textures from [Transparent Textures](https://www.transparenttextures.com/)
-  * [jQuery](http://api.jquery.com/ jQuery)
+  * [jQuery](http://api.jquery.com/)
   * Inspiration from [Chuck Norris Memes](http://www.funnybeing.com/100-funny-selected-chuck-norris-memes/)
