@@ -1,0 +1,45 @@
+/* General Style Applications  */
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif, arial;
+}
+
+/* Oversizing catch-all */
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/* Remove underline from links */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* HEADER */
+
+
+
+/* FOOTER */
