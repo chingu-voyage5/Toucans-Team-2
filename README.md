@@ -27,6 +27,6 @@ Give your worries a rest and put your creativity to the test!
 
 * Throughout the games we use:
   * Icons from [Font Awesome](https://fontawesome.com/ Font Awesome's Homepage)
-  * CSS Textures from [Transparent Textures](https://www.transparenttextures.com/ Transparent Textures Homepage)
-  * [jQuery](http://api.jquery.com/ jQuery Homepage)
-  * Inspiration from [Chuck Norris Memes](http://www.funnybeing.com/100-funny-selected-chuck-norris-memes/ Chuck Norris Funnies)
+  * CSS Textures from [Transparent Textures](https://www.transparenttextures.com/)
+  * [jQuery](http://api.jquery.com/ jQuery)
+  * Inspiration from [Chuck Norris Memes](http://www.funnybeing.com/100-funny-selected-chuck-norris-memes/)
