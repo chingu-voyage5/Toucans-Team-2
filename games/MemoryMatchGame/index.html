@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Z | Memory Game</title>
+
+<!-- STYLES -->
+ <link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/indexSmall.css">
+ <link rel="stylesheet" media="screen and (min-width: 601px)" href="./styles/index.css">
+
+<!-- ICONS/FONTS -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<!-- SCRIPTS -->
+ <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+ </script>
+ <script defer src="./scripts/index.js"></script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+ <header class="page-header">
+   <h1 class="drop-shadow header-title">Memory Game</h1>
+ </header>
+
+
+<!-- GAMEBOARD -->
+
+ <main class="main">
+
+  <section class="board-top-options">
+
+    <div class="star-section">
+      Accuracy :
+      <i class="fas fa-star first-star"></i>
+      <i class="fas fa-star second-star"></i>
+      <i class="fas fa-star third-star"></i>
+    </div>
+
+    <div class="timer-section">
+      <i class="fas fa-stopwatch"></i>
+      <span class="time">0</span>
+      seconds
+    </div>
+
+    <div class="attempts-section">
+      <i class="fas fa-mouse-pointer"></i>
+      Attempts :
+      <span class="attempts">0</span>
+    </div>
+
+    <div class="reset-section">
+      Reset
+      <i class="fas fa-redo-alt"></i>
+    </div>
+
+  </section>
+
+
+  <ul class="game-board">
+
+<!-- CARDS -->
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-anchor fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-anchor fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-bomb fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-bomb fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="far fa-heart fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="far fa-heart fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-motorcycle fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-motorcycle fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-music fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-music fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-rocket fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-rocket fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-umbrella fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-umbrella fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-fighter-jet fa-5x"></i>
+      </li>
+
+      <li class="card-hide drop-shadow">
+        <i class="fas fa-fighter-jet fa-5x"></i>
+      </li>
+
+  </ul>
+
+
+  <!-- POPUP When User Wins -->
+  <aside class="popup">
+    <h2 class="popup-header">|| Congratulations ||</h2>
+    <p class="popup-text"> It only took you
+      <strong><span class="time"></span></strong> seconds and <strong><span class="attempts"></span></strong> tries! </p>
+    <p class="popup-text"> Would you like to play again? </p>
+    <div class="reset-section">
+      <i class="fas fa-redo-alt fa-3x"></i>
+    </div>
+
+  </aside>
+
+ </main>
+
+
+<!-- FOOTER -->
+ <footer class="footer">
+   Icons courtesy of
+   <a href="https://www.fontawesome.com" target="_blank"> FontAwesome </a> |
+   Textures courtesy of <a href="https://www.transparenttextures.com/" target="_blank"> transparentTextures </a>
+ </footer>
+
+</body>
+</html>

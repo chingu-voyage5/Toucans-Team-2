@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+div.topBox {
+  background-color: #DC143C;
+  margin: 20px 35% 25px 35%;
+  border: solid medium black;
+  border-radius: 15px;
+  box-shadow: 10px 10px
+}
+
+div.selectionBox {
+  margin: 20px 40% 20px 40%;
+  padding-bottom: 20px;
+  border: thin dashed;
+  border-radius: 5px;
+}
+
+div.canvas {
+  margin: 0 0 50px 0;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    margin: auto;
+}
+
+h2 {
+    margin: 15px 20px 10px 20px;
+}
+
+h2.pick {
+    padding-top: 25px;
+}
+
+p.maxSetting {
+  margin: 0 20px 20px 5px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 0px;
+}
+
+tr {
+    height: 0px;
+}
+
+td {
+    height: 20px;
+    width: 20px;
+}
+
+input[type=number] {
+    width: 3em;
+}

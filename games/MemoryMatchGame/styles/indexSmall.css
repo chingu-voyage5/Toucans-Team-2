@@ -1,0 +1,215 @@
+/* General Style Applications  */
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif, arial;
+  background-color: #a34700;
+  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+}
+
+/* Oversizing catch-all */
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/* Remove underline from links */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* HEADER */
+
+.page-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin-top: 1em;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  background-color: rgb(0,0,0, 0.4);
+}
+
+.header-title {
+  color: #fff;
+  font-size: 1.5;
+  font-weight: 500;
+}
+
+
+/* GAMEBOARD */
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.board-top-options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 30px;
+  margin-top: 5px;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px #102027;
+}
+
+.star-section {
+  color: #fff;
+  font-size: 12px;
+}
+
+.timer-section {
+  color: #fff;
+  font-size: 12px;
+}
+
+.attempts-section {
+  color: #fff;
+  font-size: 12px;
+}
+
+.reset-section {
+  color: #fff;
+  font-size: 12px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 8px;
+  width: 95%;
+  height: 600px;
+  padding: 5px;
+  background-color: #c25b00;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px #102027;
+}
+
+
+/* CARDS */
+
+.drop-shadow {
+  filter: drop-shadow(2px 2px 4px #102027);
+}
+.dark-drop {
+  filter: drop-shadow(3px 3px 5px #102027);
+}
+
+.card-hide {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  background-color: #294500;
+  background-image: url("https://www.transparenttextures.com/patterns/pw-pattern.png");
+  border-radius: 10px;
+  font-size: 0;
+  transition: all 0.2s ease;
+}
+
+.card-hide:hover {
+  filter: drop-shadow(4px 4px 6px #102027);
+  transition: all 0.2s;
+}
+
+.card-show {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 0.5em;
+  transition: all 0.2s ease;
+}
+
+.win {
+  margin: 10px;
+  background-color: #76d275;
+}
+
+.popup {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  border: 3px solid #000;;
+  background-color: rgb(0,0,0, 0.6);
+}
+
+.popup-header {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 8px;
+}
+
+.popup-text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+
+
+/* FOOTER */
+
+.footer {
+  z-index: 1;
+  height: 18px;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  border-top: 3px solid #000;
+  background-color: rgb(0,0,0, 0.4);
+}
+
+  /* "We are the Music Makers,
+  // and we are the Dreamers of Dreams" */
+  

@@ -40,6 +40,85 @@ a:active {
 
 /* HEADER */
 
+.site-header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+}
+
+.main-header {
+  font-size: 3em;
+  color: #fff;
+  margin: 5px;
+}
+
+.main-sub-header {
+  font-size: 1em;
+  color: #fff;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* MAIN */
+
+.game-tile-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.game-header {
+  font-size: 2em;
+  color: #000;
+  padding-bottom: 8px;
+}
+
+.tile-grid {
+  width: 100%;
+  height: auto;
+  border-top: 3px dashed #000;
+  border-bottom: 3px dashed #000;
+}
+
+.list-of-games {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.game-tile-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  padding: 0.5em;
+  margin: 5px;
+}
+.game-tile-item :hover {
+  filter: drop-shadow(3px 3px 6px #102027);
+}
+
+.game-tile-pic {
+  border-radius: 15px;
+  filter: drop-shadow(4px 4px 6px #102027);
+}
+
+.game-tile-title {
+  padding: 1em;
+}
+
 
 
 /* FOOTER */
