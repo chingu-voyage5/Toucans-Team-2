@@ -65,27 +65,192 @@ a:active {
 
 /* MAIN */
 
-.game-tile-container {
+.main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   margin: 5em auto 0 auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
+  margin-bottom: 50px;
 }
 
 .game-header {
   font-size: 2em;
   color: #000;
   padding-bottom: 8px;
+  border-bottom: 3px dashed #000;
 }
+
+.game-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0;
+}
+
+.game-title {
+  font-size: 1.3em;
+  color: #000;
+  background-color: gray;
+
+}
+
+.game-area-show {
+  width: 100%;
+  height: auto;
+  background: gray;
+}
+
+.game-area-hide {
+  width: 0;
+  height: 0;
+  transition: all 0.3s;
+}
+
+
+/* ALL CSS for MEMORY GAME EMBED */
+
+/* GAMEBOARD */
+
+.memory-main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  width: 100%;
+}
+
+.board-top-options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  max-width: 900px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px #102027;
+}
+
+.star-section {
+  color: #fff;
+}
+
+.timer-section {
+  color: #fff;
+}
+
+.attempts-section {
+  color: #fff;
+}
+
+.reset-section {
+  color: #fff;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 12px;
+  width: 100%;
+  height: 900px;
+  min-width: 150px;
+  max-width: 900px;
+  padding: 5px;
+  background-color: #c25b00;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px #102027;
+}
+
+
+/* CARDS */
+
+.drop-shadow {
+  filter: drop-shadow(2px 2px 4px #102027);
+}
+.dark-drop {
+  filter: drop-shadow(3px 3px 5px #102027);
+}
+
+.card-hide {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  background-color: #294500;
+  background-image: url("https://www.transparenttextures.com/patterns/pw-pattern.png");
+  border-radius: 10px;
+  font-size: 0;
+  transition: all 0.2s ease;
+}
+
+.card-hide:hover {
+  filter: drop-shadow(4px 4px 6px #102027);
+  transition: all 0.2s;
+}
+
+.card-show {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.win {
+  margin: 12px;
+  background-color: #76d275;
+}
+
+.popup {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  border: 3px solid #000;;
+  background-color: rgb(0,0,0, 0.6);
+}
+
+.popup-header {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 8px;
+}
+
+.popup-text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+
+
+
+/* Comment while testing new feature
 
 .tile-grid {
   width: 100%;
   height: auto;
-  border-top: 3px dashed #000;
-  border-bottom: 3px dashed #000;
 }
 
 .list-of-games {
@@ -118,6 +283,7 @@ a:active {
 .game-tile-title {
   padding: 1em;
 }
+*/
 
 
 
