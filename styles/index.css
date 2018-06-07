@@ -3,7 +3,9 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: sans-serif, arial;
+  font-family: VT323, sans-serif, arial;
+  background-color: #a5d1bf;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
 }
 
 /* Oversizing catch-all */
@@ -46,17 +48,22 @@ a:active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #000;
+  height: 110px;
+  background-color: #cc86a6;
+  background-image: url("https://www.transparenttextures.com/patterns/squares.png");
+  border-bottom: 2px solid #000;
 }
 
 .main-header {
-  font-size: 3em;
+  font-size: 3.5em;
   color: #fff;
   margin: 5px;
+  filter: drop-shadow(0.3em 0.2em 15px #000);
 }
 
 .main-sub-header {
-  font-size: 1em;
+  font-family: sans-serif;
+  font-size: 0.8em;
   color: #fff;
   margin: 5px;
   padding-bottom: 5px;
@@ -77,10 +84,11 @@ a:active {
 }
 
 .game-header {
-  font-size: 2em;
-  color: #000;
+  align-self: flex-start;
+  font-size: 2.5em;
+  color: #fff;
   padding-bottom: 8px;
-  border-bottom: 3px dashed #000;
+  border-bottom: 3px dashed #fff;
 }
 
 .game-container {
@@ -89,12 +97,15 @@ a:active {
   justify-content: center;
   align-items: center;
   width: 95%;
-  margin: 0;
+  margin-bottom: 2em;
 }
 
 .game-title {
-  font-size: 1.3em;
+  text-align: center;
+  font-size: 1.5em;
   color: #000;
+  width: 100%;
+  margin-bottom: 25px;
   background-color: gray;
 }
 
@@ -110,8 +121,9 @@ a:active {
 }
 
 .game-area-hide {
+  visibility: hidden;
   width: 100%;
-  height: 5px;
+  height: 0;
   transition: all 0.5s;
 }
 
