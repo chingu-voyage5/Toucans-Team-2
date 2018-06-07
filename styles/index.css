@@ -96,7 +96,10 @@ a:active {
   font-size: 1.3em;
   color: #000;
   background-color: gray;
+}
 
+.game-title:hover {
+  cursor: pointer;
 }
 
 .game-area-show {
