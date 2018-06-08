@@ -1,13 +1,3 @@
-/* General Style Applications  */
-
-body {
-  width: 100%;
-  margin: 0;
-  font-family: VT323, sans-serif, arial;
-  background-color: #a5d1bf;
-  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-}
-
 /* Oversizing catch-all */
 
 img,
@@ -37,6 +27,17 @@ a:hover {
 a:active {
   text-decoration: none;
   color: inherit;
+}
+
+/* BODY STYLING */
+
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-family: VT323, sans-serif, arial;
+  background-color: #a5d1bf;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
 }
 
 
@@ -128,6 +129,40 @@ a:active {
 }
 
 
-
-
 /* FOOTER */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  background: linear-gradient(#75a08f, #a5d1bf);
+  padding: 15px 0 20px 0;
+}
+
+.footer-box {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.footer-box-heading {
+  width: 100%;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.footer-box-list {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer-list-item {
+  padding: 3px;
+}
