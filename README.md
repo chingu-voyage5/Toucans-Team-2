@@ -14,9 +14,8 @@ Give your worries a rest and put your creativity to the test!
 
   This site has games easy enough for young ones to play, but timeless enough to keep even the oldest kids coming back.
 
-
-- [ ] <strong>Pixel Art Maker</strong> || Try your hand at making something from scratch, right in your browser!
-- [ ] <strong>Memory Match Game</strong> || Can't remember your cat's birthday? Work on those memory skills!!!
+- [x] <strong>Memory Match Game</strong> || Can't remember your cat's birthday? Work on those memory skills!!!
+- [x] <strong>Pixel Art Maker</strong> || Try your hand at making something from scratch, right in your browser!
 - [ ] <strong>Silly Stories</strong> || Give us a few words, and we'll give you a silly story!
 
 *****
