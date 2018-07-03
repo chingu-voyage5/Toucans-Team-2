@@ -6,33 +6,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-  <div class="topBox">
-    <h1>Pixel Art Maker</h1>
-  </div>
-  <div class="selectionBox">
-    <h2>Choose Grid Size</h2>
-    <p class="maxSetting"> (max 50) </p>
-    <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" max="50" value="5">
-        <br>
-        Grid Width:
-        <input type="number" id="inputWidth" name="width" min="1" max="50" value="5">
-        <input type="submit">
-    </form>
 
-    <h2 class="pick">Pick A Color</h2>
-    <input type="color" value="#a5f37b" id="colorPicker">
-  </div>
-  <div class="canvas">
-    <h2>Design Canvas</h2>
+ <main class="container">
 
-  <h3>(Click to set color, Double click to remove)</h3>
-    <table id="pixelCanvas">
-    </table>
-  </div>
+    <div class="topBox">
+      <h1>Pixel Art Maker</h1>
+    </div>
 
-    <script src="designs.js"></script>
+    <div class="selectionBox">
+
+      <h2>Choose Grid Size</h2>
+      <p class="maxSetting"> (max 50) </p>
+
+      <form id="sizePicker">
+          Grid Height:
+          <input type="number" id="inputHeight" name="height" min="1" max="50" value="5">
+          <br>
+          Grid Width:
+          <input type="number" id="inputWidth" name="width" min="1" max="50" value="5">
+          <input type="submit">
+      </form>
+
+      <h2 class="pick">Pick A Color</h2>
+
+      <input type="color" value="#a5f37b" id="colorPicker">
+
+    </div>
+
+    <div class="canvas">
+      <h2>Design Canvas</h2>
+
+    <h3>(Click to set color, Double click to remove)</h3>
+
+      <table id="pixelCanvas">
+      </table>
+
+    </div>
+
+ </main>
+
+ <script src="designs.js"></script>
 
 </body>
 </html>

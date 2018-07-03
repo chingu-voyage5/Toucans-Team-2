@@ -4,7 +4,15 @@ body {
   text-align: center;
 }
 
-div.topBox {
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.topBox {
   background-color: #DC143C;
   margin: 20px 35% 25px 35%;
   border: solid medium black;
@@ -12,14 +20,14 @@ div.topBox {
   box-shadow: 10px 10px
 }
 
-div.selectionBox {
+.selectionBox {
   margin: 20px 40% 20px 40%;
   padding-bottom: 20px;
   border: thin dashed;
   border-radius: 5px;
 }
 
-div.canvas {
+.canvas {
   margin: 0 0 50px 0;
 }
 
