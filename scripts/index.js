@@ -5,10 +5,20 @@ $(document).ready(() => {
 
 
  const $gameTitle = $(".game-title");
+ const root = $("html, body");
 
 
 
     /* FUNCTIONS */
+
+    //Smooth Scroll Between Anchor Tags
+    $("a[href^='#']").click(function (evt) {
+      evt.preventDefault();
+      root.animate({
+        scrollTop: $($.attr(this, "href")).offset().top
+      }, 800);
+    });
+
 
     //Toggle Games show/hide
     const gameShow = (target) => {
