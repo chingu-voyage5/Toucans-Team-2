@@ -1,12 +1,8 @@
 $(document).ready(() => {
 
     /* VARIABLES */
- let gameShowing = false;
-
-
  const $gameTitle = $(".game-title");
  const root = $("html, body");
-
 
 
     /* FUNCTIONS */
@@ -18,7 +14,6 @@ $(document).ready(() => {
         scrollTop: $($.attr(this, "href")).offset().top
       }, 800);
     });
-
 
     //Toggle Games show/hide
     const gameShow = (target) => {
@@ -36,7 +31,6 @@ $(document).ready(() => {
     $(".game-container").on("click", ".game-title", (e) => {
       gameShow($(e.target).next());
       caretChange($(e.target).children());
-      gameShowing = true;
     });
 
 
