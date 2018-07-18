@@ -17,12 +17,16 @@ $(document).ready(() => {
 
     //Toggle Games show/hide
     const gameShow = (target) => {
-      target.toggleClass("game-area-show");
+      $("iFrame").removeClass("game-area-show");
+      $("iFrame").addClass("game-area-hide");
       target.toggleClass("game-area-hide");
+      target.toggleClass("game-area-show");
     }
 
     //Toggle Caret right / down
     const caretChange = (target) => {
+      $("i").removeClass("fas fa-caret-down");
+      $("i").addClass("fas fa-caret-right");
       target.toggleClass("fas fa-caret-right");
       target.toggleClass("fas fa-caret-down");
     }
