@@ -48,6 +48,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin: 0;
   width: 100%;
   height: 110px;
   background-color: #cc86a6;
@@ -60,14 +61,6 @@ body {
   color: #fff;
   margin: 5px;
   filter: drop-shadow(0.3em 0.2em 15px #000);
-}
-
-.main-sub-header {
-  font-family: sans-serif;
-  font-size: 0.8em;
-  color: #fff;
-  margin: 5px;
-  padding-bottom: 5px;
 }
 
 
@@ -86,10 +79,27 @@ body {
 
 .game-header {
   align-self: flex-start;
+  width: auto;
+  margin-left: 0.2em;
   font-size: 2.5em;
   color: #fff;
-  padding-bottom: 8px;
   border-bottom: 3px dashed #fff;
+}
+
+.game-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0.2em 0 0.2em 0;
+  color: #fff;
+  font-size: 2em;
+  background-color: #00000011;
+}
+
+.menu-item {
+  padding: 0.2em;
 }
 
 .game-container {
@@ -97,8 +107,8 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: 95%;
-  margin-bottom: 2em;
+  width: 100%;
+  margin-bottom: 1.6em;
 }
 
 .game-title {
@@ -115,14 +125,16 @@ body {
 }
 
 .game-area-show {
+  margin: 0;
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   background: gray;
   transition: all 0.5s;
 }
 
 .game-area-hide {
   visibility: hidden;
+  margin: 0;
   width: 100%;
   height: 0;
   transition: all 0.5s;
@@ -133,11 +145,12 @@ body {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 100%;
   background: linear-gradient(#75a08f, #a5d1bf);
-  padding: 15px 0 20px 0;
+  padding: 15px 0 5em 0;
+  margin: 0;
 }
 
 .footer-box {
@@ -149,7 +162,7 @@ body {
 .footer-box-heading {
   width: 100%;
   font-family: monospace;
-  font-size: 17px;
+  font-size: 1.2em;
 }
 
 .footer-box-list {
@@ -160,9 +173,11 @@ body {
   width: 100%;
   list-style: none;
   margin: 0;
-  font-size: 15px;
+  padding: 0;
+  font-size: 1em;
 }
 
 .footer-list-item {
-  padding: 3px;
+  padding-left: 2em;
+  padding-bottom: 0.4em;
 }
